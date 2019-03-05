@@ -1,0 +1,29 @@
+body{
+    font-family: Mr Eaves Mod OT, 'Poppins', sans-serif;
+    background-color:black;
+    margin:0;
+}
+
+
+h1{
+/*    text-align:center;*/
+    font-size:40px;
+    color:#fff;
+    max-width:15%;
+    display:flex;
+    justify-content: center;
+    padding:0.5rem;
+    color:blueviolet;
+}
+
+li{
+    color:#fff;
+    padding: 0.5rem;
+    border: black solid 1px;
+    background-color:blueviolet;
+    margin:0;
+    max-width:15%;
+    display:flex;
+    justify-content: center;
+    cursor:move;
+}
