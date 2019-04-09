@@ -136,13 +136,13 @@ function loadRestApiFetch(){ //Rest Api call met Fetchs
   loaderElement.classList.add('show');
   fetch(uri)
     .then(function(response) {
-      console.log(response.headers.get('Content-Type'));
-      console.log(response.headers.get('Date'));
-
-      console.log(response.status);
-      console.log(response.statusText);
-      console.log(response.type);
-      console.log(response.url);
+//      console.log(response.headers.get('Content-Type'));
+//      console.log(response.headers.get('Date'));
+//
+//      console.log(response.status);
+//      console.log(response.statusText);
+//      console.log(response.type);
+//      console.log(response.url);
 
       return response.json();
     })
